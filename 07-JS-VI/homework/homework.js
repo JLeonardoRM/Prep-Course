@@ -25,12 +25,16 @@ function sumarArray(numeros, cb) {
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-  var sum=0;
+  /*var sum=0;
   for(var i=0;i<numeros.length;i++){
     
     sum=sum + numeros[i];
   }
-  cb(sum);
+  cb(sum);*/
+  var sumat = numeros.reduce(function(ac,ea){
+    return ac+ea;
+  })
+  cb(sumat);
 }
 
 function forEach(array, cb) {
