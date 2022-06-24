@@ -69,11 +69,15 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
   var arr=[];
-  for(var i=0;i<array.length;i++){
+  /*for(var i=0;i<array.length;i++){
     if(array[i][0]==='a'){
       arr.push(array[i]);
     }
   }
+  return arr;*/
+  arr=array.filter(function(palabra){
+    return palabra[0]==='a';
+  });
   return arr;
 }
 
