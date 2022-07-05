@@ -1,14 +1,21 @@
 img{
     width: 400px;
+    
 }
-thirdDiv{
+#thirdDiv{
     height: 600px;
     width: 500px;
-    color:brown;
+    color:coral;
     padding: 50px;
-    margin: 35px;color:firebrick;
+    margin: 35px;color:bisque;
+    display: inline;
+    
 }
-spanId{
+#spanId{
     font-size: 18px;
     margin: 50px;
-}                                                                                       
+}  
+div{
+    text-align: center;
+    
+}                                                                                   
