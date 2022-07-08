@@ -1,0 +1,104 @@
+
+body{
+    background-color: rgb(128, 179, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cuadros{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+   
+}
+.cuadros .left{
+    position: relative;
+    background: rgb(77, 97, 206);
+    padding: 5px;
+}
+.profileText .imgCv{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom:2px solid rgb(138, 133, 133);
+    text-transform: uppercase;
+    color: #fff;
+}
+.cuadros .right{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.contactoInfo{
+    padding-top: 10px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+.contactoInfo ul  {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 10px;
+
+}
+.contactoInfo ul h5{
+    color: #fff;
+    font-weight: 500;
+}
+.contactoInfo ul h4{
+    font-weight: 1000;
+}
+.title2 {
+    color: rgb(45, 45, 192);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.texto ul{
+    list-style: none;
+    padding-left: 0px;
+    
+}
+.texto ul li{
+    background-color: rgb(219, 235, 235);
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    overflow: hidden;
+}
+.fecha{
+    margin-top: 5px;
+    font-weight: 1200;
+    color: rgb(124, 147, 190);
+}
+.title3{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+ a{
+    background-color: rgb(217, 243, 103);
+    text-transform: uppercase;
+}
+.pas ul li{
+    list-style: none;
+    
+    justify-content: space-evenly;
+}
